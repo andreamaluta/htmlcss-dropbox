@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
+/* common */
+
+body{
+    font-family: "Open Sans", serif;
+}
+
+header{
+    font-size: 14px;
+}
+
 footer{
     background-color: black;
     color: white;
+}
+
+/* header */
+
+.logo{
+    width: 100%;
 }
 
 
@@ -108,6 +124,19 @@ header ul{
 
 header ul li{
     display: inline-block;
+    margin: 0 15px;
+}
+
+/* button */
+
+.btn-blue{
+    background-color: #0061fe;
+    color: white;
+    border: none;
+}
+
+button{
+    padding: 5px 10px;
 }
 
 /* txt align */
@@ -152,6 +181,7 @@ header ul li{
     background-color: yellow;
 }
 
+
 /* padding */
 
 .header-pd{
@@ -160,6 +190,10 @@ header ul li{
 
 .pdy-20{
     padding: 20px 0;
+}
+
+.pd-5{
+    padding: 5px;
 }
 
 /* altezze */

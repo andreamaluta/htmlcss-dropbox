@@ -11,7 +11,11 @@ body{
 }
 
 header{
-    font-size: 14px;
+    font-size: 13px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
 }
 
 footer{
@@ -29,16 +33,26 @@ footer{
 /* main */
 
 .jumbotron{
-    background-color: aqua;
+    background-color: #b4d0e6;
+    padding: 100px 0 0 0;
 }
 
 .jumbo-container{
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
+.jumbo-img{
+    width: 115%;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 750;
+}
+
 .main-container{
-    width: 600px;
+    width: 550px;
     margin: 0 auto; 
 }
 
@@ -58,8 +72,12 @@ footer{
     width: 10%;
 }
 
-.jumbo-col{
-    width: 50%;
+.jumbo-col-left{
+    width: 35%;
+}
+
+.jumbo-col-right{
+    width: 65%;
 }
 
 .choose-col{
@@ -87,12 +105,19 @@ footer{
 }
 
 .foot-container{
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
 }
 
 .foot-col{
     width: 20%;
+}
+
+/* postion */
+
+.relative{
+    position: relative;
+    top: 45px;
 }
 
 /* flex-box */
@@ -124,7 +149,7 @@ header ul{
 
 header ul li{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 /* button */
@@ -136,7 +161,7 @@ header ul li{
 }
 
 button{
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 /* txt align */
@@ -147,6 +172,14 @@ button{
 
 .txt-center{
     text-align: center;
+}
+
+.txt-size-17{
+    font-size: 17px;
+}
+
+.icon-size-jumbo{
+    font-size: 45px;
 }
 
 /* border */
@@ -185,7 +218,7 @@ button{
 /* padding */
 
 .header-pd{
-    padding: 20px 10px;
+    padding: 10px 5px;
 }
 
 .pdy-20{
@@ -195,6 +228,14 @@ button{
 .pd-5{
     padding: 5px;
 }
+
+.pdy-100{
+    padding: 100px 0;
+}
+
+/* .jumbo-pd{
+    padding: 70px
+} */
 
 /* altezze */
 
@@ -214,6 +255,10 @@ button{
     height: 300px;
 }
 
+.hg-500{
+    height: 500px;
+}
+
 .hg-2000{
     height: 2000px;
 }
@@ -226,6 +271,10 @@ button{
 
 .my-top-200{
     margin-top: 200px;
+}
+
+.jumbo-pd{
+    padding: 50px 0 0 0;
 }
 
 /* width */

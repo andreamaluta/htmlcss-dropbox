@@ -3,3 +3,103 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* main */
+
+.jumbotron{
+    background-color: aqua;
+}
+
+.jumbo-container{
+    width: 60%;
+}
+
+
+
+/* layout */
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header-col{
+    width: 45%;
+}
+
+.header-logo-col{
+    width: 10%;
+}
+
+.jumbo-col{
+    width: 50%;
+}
+
+/* flex-box */
+.d-flex{
+    display: flex;
+}
+
+.justi-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* liste */
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+/* txt align */
+
+.align-right{
+    text-align: right;
+}
+
+/* border */
+
+.border-layout{
+    border: 1px solid black;
+}
+
+/* bg color */
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+/* padding */
+
+.header-pd{
+    padding: 20px 10px;
+}
+
+.pd-10{
+    padding: 10px;
+}
+
+/* altezze */
+
+.hg-20{
+    height: 20px;
+}
+
+.hg-150{
+    height: 150px;
+}
+
+.hg-300{
+    height: 300px;
+}

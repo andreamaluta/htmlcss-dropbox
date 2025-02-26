@@ -117,7 +117,7 @@ h1{
 
 .relative{
     position: relative;
-    top: 45px;
+    top: 55px;
 }
 
 /* flex-box */
@@ -176,6 +176,10 @@ button{
 
 .txt-size-17{
     font-size: 17px;
+}
+
+.txt-size-15{
+    font-size: 15px;
 }
 
 .icon-size-jumbo{

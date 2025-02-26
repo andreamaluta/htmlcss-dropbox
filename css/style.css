@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+
+
 /* main */
 
 .jumbotron{
@@ -64,6 +70,15 @@
     width: 33%;
 }
 
+.foot-container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.foot-col{
+    width: 20%;
+}
+
 /* flex-box */
 .d-flex{
     display: flex;
@@ -111,7 +126,7 @@ header ul li{
     border: 1px solid black;
 }
 
-/* bg color */
+/* color */
 
 .bg-orange{
     background-color: orange;
@@ -133,14 +148,18 @@ header ul li{
     background-color: blue;
 }
 
+.bg-yellow{
+    background-color: yellow;
+}
+
 /* padding */
 
 .header-pd{
     padding: 20px 10px;
 }
 
-.pd-10{
-    padding: 10px;
+.pdy-20{
+    padding: 20px 0;
 }
 
 /* altezze */

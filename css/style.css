@@ -60,6 +60,10 @@
     width: 50%;
 }
 
+.operation-col{
+    width: 33%;
+}
+
 /* flex-box */
 .d-flex{
     display: flex;
@@ -149,6 +153,10 @@ header ul li{
     height: 150px;
 }
 
+.hg-200{
+    height: 200px;
+}
+
 .hg-300{
     height: 300px;
 }
@@ -165,4 +173,10 @@ header ul li{
 
 .my-top-200{
     margin-top: 200px;
+}
+
+/* width */
+
+.w-50{
+    width: 100%;
 }

@@ -11,16 +11,21 @@
 }
 
 .jumbo-container{
-    width: 60%;
+    width: 800px;
+    margin: 0 auto;
 }
 
-
+.main-container{
+    width: 600px;
+    margin: 0 auto; 
+}
 
 /* layout */
 
 .container{
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
 }
 
 .header-col{
@@ -35,6 +40,26 @@
     width: 50%;
 }
 
+.choose-col{
+    width: 30%;
+}
+
+.choose-col-orizz{
+    width: 100%;
+}
+
+.contact-col{
+    width: 100%;
+}
+
+.right-col{
+    width: 50%;
+}
+
+.left-col{
+    width: 50%;
+}
+
 /* flex-box */
 .d-flex{
     display: flex;
@@ -46,6 +71,14 @@
 
 .align-center{
     align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /* liste */
@@ -64,6 +97,10 @@ header ul li{
     text-align: right;
 }
 
+.txt-center{
+    text-align: center;
+}
+
 /* border */
 
 .border-layout{
@@ -78,6 +115,18 @@ header ul li{
 
 .bg-red{
     background-color: red;
+}
+
+.bg-grey{
+    background-color: gray;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+
+.bg-blue{
+    background-color: blue;
 }
 
 /* padding */
@@ -102,4 +151,18 @@ header ul li{
 
 .hg-300{
     height: 300px;
+}
+
+.hg-2000{
+    height: 2000px;
+}
+
+/* margin */
+
+.my-top-30{
+    margin-top: 30px;
+}
+
+.my-top-200{
+    margin-top: 200px;
 }

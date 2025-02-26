@@ -52,8 +52,16 @@ h1{
 }
 
 .main-container{
-    width: 550px;
+    width: 800px;
     margin: 0 auto; 
+}
+
+.bd-row{
+    border-top: 1px solid rgb(233, 232, 232);
+}
+
+.inline-block{
+    display: inline-block;
 }
 
 /* layout */
@@ -81,7 +89,7 @@ h1{
 }
 
 .choose-col{
-    width: 30%;
+    width: 32%;
 }
 
 .choose-col-orizz{
@@ -105,7 +113,7 @@ h1{
 }
 
 .foot-container{
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -152,6 +160,22 @@ header ul li{
     margin: 0 10px;
 }
 
+main ul{
+    list-style: none;
+}
+
+main ul li{
+    display: flex;
+    align-items: first baseline;
+    
+}
+
+main ul li i{
+    color: #267efe;
+    margin-right: 5px;
+}
+
+
 /* button */
 
 .btn-blue{
@@ -182,6 +206,10 @@ button{
     font-size: 15px;
 }
 
+.txt-size-13{
+    font-size: 13px;
+}
+
 .icon-size-jumbo{
     font-size: 45px;
 }
@@ -190,6 +218,10 @@ button{
 
 .border-layout{
     border: 1px solid black;
+}
+
+.bd-bottom{
+    border-bottom: 1px solid black;
 }
 
 /* color */
@@ -218,6 +250,10 @@ button{
     background-color: yellow;
 }
 
+.txt-lightgray{
+    color: lightgrey;
+}
+
 
 /* padding */
 
@@ -229,12 +265,25 @@ button{
     padding: 20px 0;
 }
 
+.pdy-5{
+    padding: 5px 0;
+}
+
 .pd-5{
     padding: 5px;
 }
 
-.pdy-100{
-    padding: 100px 0;
+.pd-15{
+    padding: 15px;
+
+}
+
+hr{
+    width: 50px;
+}
+
+.pdy-70{
+    padding: 70px 0;
 }
 
 /* .jumbo-pd{
@@ -263,6 +312,10 @@ button{
     height: 500px;
 }
 
+.hg-800{
+    height: 800px;
+}
+
 .hg-2000{
     height: 2000px;
 }
@@ -273,9 +326,22 @@ button{
     margin-top: 30px;
 }
 
+.my-top-100{
+    margin-top: 100px;
+}
+
 .my-top-200{
     margin-top: 200px;
 }
+
+.mxr-40{
+    margin-right: 40px
+}
+
+.mxr-5{
+    margin-right: 5px
+}
+
 
 .jumbo-pd{
     padding: 50px 0 0 0;

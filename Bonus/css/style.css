@@ -6,6 +6,10 @@
 
 /* common */
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Open Sans", serif;
 }
@@ -258,6 +262,7 @@ footer hr{
 
 .icon-size-jumbo{
     font-size: 45px;
+    color: black;
 }
 
 /* border */
@@ -334,6 +339,10 @@ footer hr{
     margin-top: 20px;
 }
 
+/* .my-top-10{
+    margin-top: 10px;
+} */
+
 .my-top-40{
     margin-top: 40px;
 }
@@ -367,3 +376,63 @@ footer hr{
 .w-100{
     width: 100%;
 }
+
+/* hover */
+
+button:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-earth-americas:hover{
+    cursor: pointer;
+}
+
+input[type='radio']:hover{
+    cursor: pointer;
+}
+
+header ul li:hover{
+    cursor: context-menu;
+}
+
+footer ul li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-arrow-down:hover{
+    cursor: pointer;
+    font-size: 48px;
+}
+
+/* dropdown */
+
+.header-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.header-dropdown-content{
+    position: absolute;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px 20px;
+    transition: 1s;
+    z-index: 1;
+}
+
+div.header-dropdown-content ul li:hover{
+    cursor: pointer;
+}
+
+div.header-dropdown-content ul li + li{
+    margin-top: 10px;
+}
+
+.header-dropdown:hover .header-dropdown-content{
+    opacity: 1;
+}
+
+

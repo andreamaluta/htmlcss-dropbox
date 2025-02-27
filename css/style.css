@@ -201,6 +201,16 @@ main ul li i{
     margin-right: 5px;
 }
 
+footer ul{
+    list-style: none;
+    margin-top: 15px;
+}
+
+footer ul li{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
 
 /* button */
 
@@ -317,6 +327,10 @@ hr{
     margin-top: 40px;
 }
 
+footer hr{
+    width: 20%;
+}
+
 .pdy-70{
     padding: 70px 0;
 }
@@ -381,6 +395,9 @@ hr{
     margin-top: 40px;
 }
 
+.my-bottom-40{
+    margin-bottom: 40px;
+}
 
 .mxr-40{
     margin-right: 40px
@@ -388,6 +405,10 @@ hr{
 
 .mxr-5{
     margin-right: 5px
+}
+
+.mxl-5{
+    margin-left: 5px
 }
 
 

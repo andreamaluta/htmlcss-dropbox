@@ -42,10 +42,6 @@ footer{
     margin: 0 auto;
 }
 
-.jumbo-img{
-    width: 115%;
-}
-
 h1{
     font-size: 50px;
     font-weight: 750;
@@ -62,6 +58,12 @@ h1{
 
 .inline-block{
     display: inline-block;
+}
+
+/* immagini */
+
+.jumbo-img{
+    width: 115%;
 }
 
 .partner-img{
@@ -150,10 +152,6 @@ h1{
     display: flex;
 }
 
-.vertical-align-center{
-    vertical-align: middle;
-}
-
 .justi-center{
     justify-content: center;
 }
@@ -168,10 +166,6 @@ h1{
 
 .wrap{
     flex-wrap: wrap;
-}
-
-.contact-gap{
-    gap: 25px;
 }
 
 /* liste */
@@ -229,7 +223,18 @@ button{
     padding: 10px 15px;
 }
 
-/* txt align */
+/* hr */
+
+hr{
+    width: 50px;
+    margin-top: 40px;
+}
+
+footer hr{
+    width: 20%;
+}
+
+/* txt align/size*/
 
 .align-right{
     text-align: right;
@@ -267,34 +272,9 @@ button{
 
 /* color */
 
-.bg-orange{
-    background-color: orange;
-}
-
-.bg-red{
-    background-color: red;
-}
-
-.bg-grey{
-    background-color: gray;
-}
-
-.bg-lightgreen{
-    background-color: lightgreen;
-}
-
-.bg-blue{
-    background-color: blue;
-}
-
-.bg-yellow{
-    background-color: yellow;
-}
-
 .txt-lightgray{
     color: lightgrey;
 }
-
 
 /* padding */
 
@@ -322,52 +302,10 @@ button{
     padding: 25px 0 0 15px;
 }
 
-hr{
-    width: 50px;
-    margin-top: 40px;
-}
-
-footer hr{
-    width: 20%;
-}
-
 .pdy-70{
     padding: 70px 0;
 }
 
-/* .jumbo-pd{
-    padding: 70px
-} */
-
-/* altezze */
-
-.hg-20{
-    height: 20px;
-}
-
-.hg-150{
-    height: 150px;
-}
-
-.hg-200{
-    height: 200px;
-}
-
-.hg-300{
-    height: 300px;
-}
-
-.hg-500{
-    height: 500px;
-}
-
-.hg-800{
-    height: 800px;
-}
-
-.hg-2000{
-    height: 2000px;
-}
 
 /* margin */
 
@@ -411,13 +349,12 @@ footer hr{
     margin-left: 5px
 }
 
-
 .jumbo-pd{
     padding: 50px 0 0 0;
 }
 
 /* width */
 
-.w-50{
+.w-100{
     width: 100%;
 }

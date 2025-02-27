@@ -68,6 +68,10 @@ h1{
     width: 100%;
 }
 
+.operation-img{
+    width: 100%;
+}
+
 /* layout */
 
 .container{
@@ -365,8 +369,12 @@ hr{
     margin-top: 200px;
 }
 
-.my-top-15{
-    margin-top: 15px;
+.my-top-50{
+    margin-top: 50px;
+}
+
+.my-top-20{
+    margin-top: 20px;
 }
 
 .my-top-40{

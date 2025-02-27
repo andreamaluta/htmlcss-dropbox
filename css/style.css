@@ -96,6 +96,15 @@ h1{
     width: 100%;
 }
 
+.inside-col-left{
+    width: 70%;
+}
+
+.inside-col-right{
+    width: 30%;
+}
+
+
 .contact-col{
     width: 100%;
 }
@@ -129,6 +138,7 @@ h1{
 }
 
 /* flex-box */
+
 .d-flex{
     display: flex;
 }
@@ -218,11 +228,11 @@ button{
 /* border */
 
 .border-layout{
-    border: 1px solid black;
+    border: 1px solid #f0f0f1;
 }
 
 .bd-bottom{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #f0f0f1;
 }
 
 /* color */
@@ -276,8 +286,8 @@ button{
 
 .pd-15{
     padding: 15px;
-
 }
+
 
 hr{
     width: 50px;

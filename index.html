@@ -57,15 +57,18 @@
 
         <div class="my-top-100 bd-row"></div>
 
+        <!-- sezione scelta del pacchetto -->
         <div class="container justi-center align-center pdy-70">
-            <div class="main-container bg-lightgreen hg-2000">
+            <div class="main-container hg-2000">
                 <h2>Trova il piano buisiness che fa per te</h2>
                 <div class="my-top-30 d-flex">
                     <span class="txt-size-13 d-flex mxr-40">
-                        <input type="radio"> Fatturazione mensile
+                        <input type="radio" name="Fatturazione" value="mensile">
+                        <label for="mensile">Fatturazione mensile</label> 
                     </span>
                     <span class="txt-size-13 d-flex">
-                        <input type="radio"> Fatturazione annuale
+                        <input type="radio" name="Fatturazione" value="annuale">
+                        <label for="annuale">Fatturazione annuale</label> 
                     </span>
                 </div>
 
@@ -74,7 +77,7 @@
                 <div class="d-flex space-between wrap my-top-30">
                     
                     <!-- prima colonna -->
-                    <div class="choose-col bg-grey hg-800 border-layout">
+                    <div class="choose-col  border-layout">
                         
                         <div class="bd-bottom pdy-5 txt-center">
                             <i class="fa-solid fa-user"></i> Singolo
@@ -127,7 +130,7 @@
                     </div>
 
                     <!-- seconda colonna -->
-                    <div class="choose-col bg-grey hg-800 border-layout">
+                    <div class="choose-col  border-layout">
                         <div class="bd-bottom pdy-5 txt-center">
                             <i class="fa-solid fa-users"></i> Team
                         </div>
@@ -180,6 +183,7 @@
                                     <li>
                                         <i class="fa-solid fa-check "></i>Gestione dei permessi in base ai ruoli
                                     </li>
+                                    
                                 </ul>
                             </div>
                     
@@ -187,7 +191,7 @@
                     </div>
 
                     <!-- terza colonna -->
-                    <div class="choose-col bg-grey hg-800 border-layout">
+                    <div class="choose-col  border-layout">
                         <div class="bd-bottom pdy-5 txt-center">
                             <i class="fa-solid fa-building"></i> Azienda
                         </div>
@@ -241,7 +245,23 @@
                     </div>
 
                     <!-- colonna orizzontale -->
-                    <div class="choose-col-orizz bg-grey hg-800 border-layout my-top-30"></div>
+                    <div class="choose-col-orizz border-layout my-top-30">
+                        <div class="bd-bottom pdy-5 txt-center">
+                            <i class="fa-solid fa-building"></i> Team
+                        </div>
+
+                        <div class="d-flex pd-15">
+                            <div class="inside-col-left">
+                                <h3>Enterprise</h3>
+                                <h4 class="my-top-30 txt-size-13">Contatta l'ufficio vendite per i prezzi</h4>
+                                <p class="txt-size-13 my-top-40">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                            </div>
+                            <div class="inside-col-right align-right">
+                                <button class="btn-blue"> Contatta l'ufficio vendite</button>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
                 
                 <div class="contact-col bg-grey hg-300 border-layout my-top-200 d-flex align-center">
